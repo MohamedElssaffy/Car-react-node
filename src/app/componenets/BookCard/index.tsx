@@ -11,7 +11,7 @@ import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 import { Button } from '../button';
 import { Marginer } from '../marginer';
-import SCREENS from '../../componenets/responsive/responsive';
+import { SCREENS } from '../../componenets/responsive/responsive';
 
 const CardContainer = styled.div`
   min-height: 4.3em;

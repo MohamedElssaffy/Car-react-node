@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components';
 import tw from 'twin.macro';
 import { useMediaQuery } from 'react-responsive';
 import { slide as Menu } from 'react-burger-menu';
-import SCREENS from '../responsive/responsive';
+import { SCREENS } from '../responsive/responsive';
 import menuStyles from './menuStyles';
 const ListContainer = styled.ul`
   ${tw`
@@ -29,10 +29,10 @@ const NavItem = styled.li<{ menu?: any }>`
     menu &&
     css`
       ${tw`
-			 text-white
-      text-xl
-      mb-3
-      focus:text-white
+			  text-white
+        text-xl
+        mb-3
+        focus:text-white
 		`}
     `}
 `;

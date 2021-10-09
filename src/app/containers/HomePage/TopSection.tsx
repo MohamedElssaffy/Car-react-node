@@ -4,7 +4,7 @@ import tw from 'twin.macro';
 import BlobImg from '../../../assets/images/blob.svg';
 import CarImg from '../../../assets/images/mclaren-orange-big.png';
 import { Button } from '../../componenets/button';
-import SCREENS from '../../componenets/responsive/responsive';
+import { SCREENS } from '../../componenets/responsive/responsive';
 
 const TopSectionContainer = styled.div`
   min-height: 400px;
