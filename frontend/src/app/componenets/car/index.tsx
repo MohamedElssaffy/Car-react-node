@@ -140,12 +140,12 @@ export function Car(props: ICarProps) {
     monthlyPrice,
     name,
     gearType,
-    thumbnailSrc,
+    thumbnailUrl,
   } = props;
   return (
     <CarContainer>
       <CarThumnail>
-        <img src={thumbnailSrc} alt='A Car' />
+        <img src={thumbnailUrl} alt='A Car' />
       </CarThumnail>
       <CarName>{name}</CarName>
       <PricesContainer>
